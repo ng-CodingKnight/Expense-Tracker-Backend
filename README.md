@@ -6,3 +6,4 @@ Express JS
 Mongo DB Atlas
 mongoose
 TypeScript
+dotenv 
