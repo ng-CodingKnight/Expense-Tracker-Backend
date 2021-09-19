@@ -12,7 +12,7 @@ const requireUser = async (
         return res.sendStatus(403);
     }
 
-    return next()
+    return next();
 }
 
 export default requireUser;

@@ -1,6 +1,5 @@
 import { omit } from "lodash";
 import { DocumentDefinition, FilterQuery, UpdateQuery } from "mongoose";
-import Session, { SessionDocument } from "../model/session.model";
 import User, { UserDocument } from "../model/user.model";
 
 export async function createUser(input: DocumentDefinition<UserDocument>) {
